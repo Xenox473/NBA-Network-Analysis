@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-26">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="UTA" label="UTA" />
+      <node id="MIN" label="MIN" />
+      <node id="GSW" label="GSW" />
+      <node id="MEM" label="MEM" />
+      <node id="PHX" label="PHX" />
+      <node id="NOP" label="NOP" />
+      <node id="DAL" label="DAL" />
+      <node id="DEN" label="DEN" />
+    </nodes>
+    <edges>
+      <edge source="UTA" target="GSW" id="0" weight="0.6217990921376348" />
+      <edge source="UTA" target="MIN" id="1" weight="0.5385267708249843" />
+      <edge source="UTA" target="NOP" id="2" weight="0.6291248551908273" />
+      <edge source="UTA" target="MEM" id="3" weight="0.5501402915981334" />
+      <edge source="UTA" target="PHX" id="4" weight="0.6384139814527665" />
+      <edge source="MIN" target="PHX" id="5" weight="0.6180746091835593" />
+      <edge source="GSW" target="MIN" id="6" weight="0.5573835023279172" />
+      <edge source="GSW" target="DEN" id="7" weight="0.5221060460119769" />
+      <edge source="GSW" target="NOP" id="8" weight="0.5223772133501126" />
+      <edge source="GSW" target="MEM" id="9" weight="0.5004709542047933" />
+      <edge source="MEM" target="MIN" id="10" weight="0.5622619481236869" />
+      <edge source="MEM" target="DEN" id="11" weight="0.5228155339805824" />
+      <edge source="MEM" target="DAL" id="12" weight="0.5267812757774901" />
+      <edge source="MEM" target="PHX" id="13" weight="0.6169492151943186" />
+      <edge source="PHX" target="GSW" id="14" weight="0.563515968145807" />
+      <edge source="NOP" target="MIN" id="15" weight="0.6289848231791444" />
+      <edge source="NOP" target="DEN" id="16" weight="0.521114392091411" />
+      <edge source="NOP" target="MEM" id="17" weight="0.6158851251433863" />
+      <edge source="NOP" target="PHX" id="18" weight="0.5352617217353394" />
+      <edge source="DAL" target="GSW" id="19" weight="0.6057159102899282" />
+      <edge source="DAL" target="UTA" id="20" weight="0.5805716174601208" />
+      <edge source="DAL" target="MIN" id="21" weight="0.5404076232075816" />
+      <edge source="DAL" target="DEN" id="22" weight="0.5030605427974949" />
+      <edge source="DAL" target="NOP" id="23" weight="0.5229716266721951" />
+      <edge source="DAL" target="PHX" id="24" weight="0.6118709104127958" />
+      <edge source="DEN" target="UTA" id="25" weight="0.5949428746302152" />
+      <edge source="DEN" target="MIN" id="26" weight="0.6195641398453505" />
+      <edge source="DEN" target="PHX" id="27" weight="0.5192556791067" />
+    </edges>
+  </graph>
+</gexf>

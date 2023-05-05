@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-26">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="Weighted Score" type="double" />
+      <attribute id="4" title="Matchup time normalized" type="double" />
+      <attribute id="5" title="Matchup time normalized by player" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="team" type="string" />
+      <attribute id="2" title="position" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Stephen Curry" label="Stephen Curry">
+        <attvalues>
+          <attvalue for="0" value="Stephen Curry" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Sam Hauser" label="Sam Hauser">
+        <attvalues>
+          <attvalue for="0" value="Sam Hauser" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Marcus Smart" label="Marcus Smart">
+        <attvalues>
+          <attvalue for="0" value="Marcus Smart" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Malik Fitts" label="Malik Fitts">
+        <attvalues>
+          <attvalue for="0" value="Malik Fitts" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Otto Porter Jr." label="Otto Porter Jr.">
+        <attvalues>
+          <attvalue for="0" value="Otto Porter Jr." />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Klay Thompson" label="Klay Thompson">
+        <attvalues>
+          <attvalue for="0" value="Klay Thompson" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Juan Toscano-Anderson" label="Juan Toscano-Anderson">
+        <attvalues>
+          <attvalue for="0" value="Juan Toscano-Anderson" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Damion Lee" label="Damion Lee">
+        <attvalues>
+          <attvalue for="0" value="Damion Lee" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Grant Williams" label="Grant Williams">
+        <attvalues>
+          <attvalue for="0" value="Grant Williams" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Aaron Nesmith" label="Aaron Nesmith">
+        <attvalues>
+          <attvalue for="0" value="Aaron Nesmith" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Jonathan Kuminga" label="Jonathan Kuminga">
+        <attvalues>
+          <attvalue for="0" value="Jonathan Kuminga" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Juwan Morgan" label="Juwan Morgan">
+        <attvalues>
+          <attvalue for="0" value="Juwan Morgan" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Jaylen Brown" label="Jaylen Brown">
+        <attvalues>
+          <attvalue for="0" value="Jaylen Brown" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Kevon Looney" label="Kevon Looney">
+        <attvalues>
+          <attvalue for="0" value="Kevon Looney" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Nik Stauskas" label="Nik Stauskas">
+        <attvalues>
+          <attvalue for="0" value="Nik Stauskas" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Jordan Poole" label="Jordan Poole">
+        <attvalues>
+          <attvalue for="0" value="Jordan Poole" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Chris Chiozza" label="Chris Chiozza">
+        <attvalues>
+          <attvalue for="0" value="Chris Chiozza" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Draymond Green" label="Draymond Green">
+        <attvalues>
+          <attvalue for="0" value="Draymond Green" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Brodric Thomas" label="Brodric Thomas">
+        <attvalues>
+          <attvalue for="0" value="Brodric Thomas" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Payton Pritchard" label="Payton Pritchard">
+        <attvalues>
+          <attvalue for="0" value="Payton Pritchard" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Nemanja Bjelica" label="Nemanja Bjelica">
+        <attvalues>
+          <attvalue for="0" value="Nemanja Bjelica" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Andrew Wiggins" label="Andrew Wiggins">
+        <attvalues>
+          <attvalue for="0" value="Andrew Wiggins" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Gary Payton II" label="Gary Payton II">
+        <attvalues>
+          <attvalue for="0" value="Gary Payton II" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Derrick White" label="Derrick White">
+        <attvalues>
+          <attvalue for="0" value="Derrick White" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Daniel Theis" label="Daniel Theis">
+        <attvalues>
+          <attvalue for="0" value="Daniel Theis" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Jayson Tatum" label="Jayson Tatum">
+        <attvalues>
+          <attvalue for="0" value="Jayson Tatum" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="F" />
+        </attvalues>
+      </node>
+      <node id="Moses Moody" label="Moses Moody">
+        <attvalues>
+          <attvalue for="0" value="Moses Moody" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Andre Iguodala" label="Andre Iguodala">
+        <attvalues>
+          <attvalue for="0" value="Andre Iguodala" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Luke Kornet" label="Luke Kornet">
+        <attvalues>
+          <attvalue for="0" value="Luke Kornet" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="C" />
+        </attvalues>
+      </node>
+      <node id="Quinndary Weatherspoon" label="Quinndary Weatherspoon">
+        <attvalues>
+          <attvalue for="0" value="Quinndary Weatherspoon" />
+          <attvalue for="1" value="GSW" />
+          <attvalue for="2" value="G" />
+        </attvalues>
+      </node>
+      <node id="Al Horford" label="Al Horford">
+        <attvalues>
+          <attvalue for="0" value="Al Horford" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="C" />
+        </attvalues>
+      </node>
+      <node id="Robert Williams III" label="Robert Williams III">
+        <attvalues>
+          <attvalue for="0" value="Robert Williams III" />
+          <attvalue for="1" value="BOS" />
+          <attvalue for="2" value="C" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Stephen Curry" target="Marcus Smart" id="0">
+        <attvalues>
+          <attvalue for="3" value="0.13329030546917056" />
+          <attvalue for="4" value="0.19289573792735815" />
+          <attvalue for="5" value="0.40376324998732055" />
+        </attvalues>
+      </edge>
+      <edge source="Stephen Curry" target="Derrick White" id="1">
+        <attvalues>
+          <attvalue for="3" value="0.1498244092388076" />
+          <attvalue for="4" value="0.12345230306995225" />
+          <attvalue for="5" value="0.4309761461681611" />
+        </attvalues>
+      </edge>
+      <edge source="Stephen Curry" target="Jaylen Brown" id="2">
+        <attvalues>
+          <attvalue for="3" value="0.0022519270308346707" />
+          <attvalue for="4" value="0.06028446124397276" />
+          <attvalue for="5" value="0.12956983647536716" />
+        </attvalues>
+      </edge>
+      <edge source="Stephen Curry" target="Jayson Tatum" id="3">
+        <attvalues>
+          <attvalue for="3" value="0.016693236379951303" />
+          <attvalue for="4" value="0.06534854982917787" />
+          <attvalue for="5" value="0.11414423565261553" />
+        </attvalues>
+      </edge>
+      <edge source="Marcus Smart" target="Derrick White" id="4">
+        <attvalues>
+          <attvalue for="3" value="3.39864151283378e-18" />
+          <attvalue for="4" value="0.10506166557631266" />
+          <attvalue for="5" value="0.3667738115378109" />
+        </attvalues>
+      </edge>
+      <edge source="Marcus Smart" target="Jordan Poole" id="5">
+        <attvalues>
+          <attvalue for="3" value="0.04924758192658646" />
+          <attvalue for="4" value="0.09503040876160015" />
+          <attvalue for="5" value="0.2230436760691538" />
+        </attvalues>
+      </edge>
+      <edge source="Marcus Smart" target="Andrew Wiggins" id="6">
+        <attvalues>
+          <attvalue for="3" value="0.0747509240821106" />
+          <attvalue for="4" value="0.04216035472850185" />
+          <attvalue for="5" value="0.09877384196185286" />
+        </attvalues>
+      </edge>
+      <edge source="Otto Porter Jr." target="Robert Williams III" id="7">
+        <attvalues>
+          <attvalue for="3" value="0.031287630036170966" />
+          <attvalue for="4" value="0.09609653267427491" />
+          <attvalue for="5" value="0.1369617018337535" />
+        </attvalues>
+      </edge>
+      <edge source="Otto Porter Jr." target="Marcus Smart" id="8">
+        <attvalues>
+          <attvalue for="3" value="0.12070818914295114" />
+          <attvalue for="4" value="0.06069637275568801" />
+          <attvalue for="5" value="0.1270477253131815" />
+        </attvalues>
+      </edge>
+      <edge source="Klay Thompson" target="Jaylen Brown" id="9">
+        <attvalues>
+          <attvalue for="3" value="0.09532551713684424" />
+          <attvalue for="4" value="0.10879309927067432" />
+          <attvalue for="5" value="0.23382980939485473" />
+        </attvalues>
+      </edge>
+      <edge source="Klay Thompson" target="Marcus Smart" id="10">
+        <attvalues>
+          <attvalue for="3" value="0.016078323494843335" />
+          <attvalue for="4" value="0.044413752998473506" />
+          <attvalue for="5" value="0.09296546127707055" />
+        </attvalues>
+      </edge>
+      <edge source="Juan Toscano-Anderson" target="Derrick White" id="11">
+        <attvalues>
+          <attvalue for="3" value="0.12381203479839335" />
+          <attvalue for="4" value="0.08591989532601585" />
+          <attvalue for="5" value="0.29994924716630017" />
+        </attvalues>
+      </edge>
+      <edge source="Juan Toscano-Anderson" target="Robert Williams III" id="12">
+        <attvalues>
+          <attvalue for="3" value="0.00605573886665263" />
+          <attvalue for="4" value="0.05185239029827239" />
+          <attvalue for="5" value="0.07390268328901475" />
+        </attvalues>
+      </edge>
+      <edge source="Damion Lee" target="Jaylen Brown" id="13">
+        <attvalues>
+          <attvalue for="3" value="0.05243407063796709" />
+          <attvalue for="4" value="0.058515664752489635" />
+          <attvalue for="5" value="0.1257681491511301" />
+        </attvalues>
+      </edge>
+      <edge source="Damion Lee" target="Marcus Smart" id="14">
+        <attvalues>
+          <attvalue for="3" value="0.0344841069153113" />
+          <attvalue for="4" value="0.05015628407356255" />
+          <attvalue for="5" value="0.10498554546837754" />
+        </attvalues>
+      </edge>
+      <edge source="Grant Williams" target="Derrick White" id="15">
+        <attvalues>
+          <attvalue for="3" value="0.12480988437679355" />
+          <attvalue for="4" value="0.04831479731530614" />
+          <attvalue for="5" value="0.1686685839959398" />
+        </attvalues>
+      </edge>
+      <edge source="Aaron Nesmith" target="Stephen Curry" id="16">
+        <attvalues>
+          <attvalue for="3" value="0.11354499148556886" />
+          <attvalue for="4" value="0.052191611543214354" />
+          <attvalue for="5" value="0.08693897319987083" />
+        </attvalues>
+      </edge>
+      <edge source="Jonathan Kuminga" target="Jaylen Brown" id="17">
+        <attvalues>
+          <attvalue for="3" value="0.01704809629439876" />
+          <attvalue for="4" value="0.0439533813089094" />
+          <attvalue for="5" value="0.09446932611186336" />
+        </attvalues>
+      </edge>
+      <edge source="Jaylen Brown" target="Andrew Wiggins" id="18">
+        <attvalues>
+          <attvalue for="3" value="0.09468940665137499" />
+          <attvalue for="4" value="0.11160378958590778" />
+          <attvalue for="5" value="0.2614668483197094" />
+        </attvalues>
+      </edge>
+      <edge source="Jaylen Brown" target="Draymond Green" id="19">
+        <attvalues>
+          <attvalue for="3" value="0.024251996702800486" />
+          <attvalue for="4" value="0.08410263865668387" />
+          <attvalue for="5" value="0.1803960293124058" />
+        </attvalues>
+      </edge>
+      <edge source="Jaylen Brown" target="Otto Porter Jr." id="20">
+        <attvalues>
+          <attvalue for="3" value="0.04684236939975179" />
+          <attvalue for="4" value="0.07562210753313464" />
+          <attvalue for="5" value="0.11637706018345888" />
+        </attvalues>
+      </edge>
+      <edge source="Jaylen Brown" target="Kevon Looney" id="21">
+        <attvalues>
+          <attvalue for="3" value="0.021626503725564846" />
+          <attvalue for="4" value="0.03942235468004167" />
+          <attvalue for="5" value="0.07793638628089672" />
+        </attvalues>
+      </edge>
+      <edge source="Kevon Looney" target="Daniel Theis" id="22">
+        <attvalues>
+          <attvalue for="3" value="0.05752151693216697" />
+          <attvalue for="4" value="0.16047587894647572" />
+          <attvalue for="5" value="0.36226889836998144" />
+        </attvalues>
+      </edge>
+      <edge source="Kevon Looney" target="Jayson Tatum" id="23">
+        <attvalues>
+          <attvalue for="3" value="0.026694125274882713" />
+          <attvalue for="4" value="0.04598870877856122" />
+          <attvalue for="5" value="0.0803284239038429" />
+        </attvalues>
+      </edge>
+      <edge source="Kevon Looney" target="Derrick White" id="24">
+        <attvalues>
+          <attvalue for="3" value="0.22953187384702275" />
+          <attvalue for="4" value="0.053645416878679936" />
+          <attvalue for="5" value="0.18727795635256303" />
+        </attvalues>
+      </edge>
+      <edge source="Kevon Looney" target="Marcus Smart" id="25">
+        <attvalues>
+          <attvalue for="3" value="0.021607844982693806" />
+          <attvalue for="4" value="0.044922584865886454" />
+          <attvalue for="5" value="0.09403053202819901" />
+        </attvalues>
+      </edge>
+      <edge source="Jordan Poole" target="Jaylen Brown" id="26">
+        <attvalues>
+          <attvalue for="3" value="0.0337950654316817" />
+          <attvalue for="4" value="0.06045407186644374" />
+          <attvalue for="5" value="0.12993438183522552" />
+        </attvalues>
+      </edge>
+      <edge source="Jordan Poole" target="Daniel Theis" id="27">
+        <attvalues>
+          <attvalue for="3" value="0.013956800662687866" />
+          <attvalue for="4" value="0.03603014223062198" />
+          <attvalue for="5" value="0.08133683404441527" />
+        </attvalues>
+      </edge>
+      <edge source="Chris Chiozza" target="Payton Pritchard" id="28">
+        <attvalues>
+          <attvalue for="3" value="0.14394728556967942" />
+          <attvalue for="4" value="0.07390177121950037" />
+          <attvalue for="5" value="0.32068131637051833" />
+        </attvalues>
+      </edge>
+      <edge source="Draymond Green" target="Jayson Tatum" id="29">
+        <attvalues>
+          <attvalue for="3" value="0.060459276615330924" />
+          <attvalue for="4" value="0.179302658040755" />
+          <attvalue for="5" value="0.3131877433553411" />
+        </attvalues>
+      </edge>
+      <edge source="Draymond Green" target="Robert Williams III" id="30">
+        <attvalues>
+          <attvalue for="3" value="0.06750977304097944" />
+          <attvalue for="4" value="0.10355940006299821" />
+          <attvalue for="5" value="0.14759816279310703" />
+        </attvalues>
+      </edge>
+      <edge source="Draymond Green" target="Marcus Smart" id="31">
+        <attvalues>
+          <attvalue for="3" value="0.056877647880893584" />
+          <attvalue for="4" value="0.09338276271473915" />
+          <attvalue for="5" value="0.19546584165948164" />
+        </attvalues>
+      </edge>
+      <edge source="Draymond Green" target="Derrick White" id="32">
+        <attvalues>
+          <attvalue for="3" value="0.05442243517617235" />
+          <attvalue for="4" value="0.03922851396864625" />
+          <attvalue for="5" value="0.1369480629335138" />
+        </attvalues>
+      </edge>
+      <edge source="Payton Pritchard" target="Damion Lee" id="33">
+        <attvalues>
+          <attvalue for="3" value="0.04348088952643222" />
+          <attvalue for="4" value="0.05483269123597683" />
+          <attvalue for="5" value="0.29527661795407095" />
+        </attvalues>
+      </edge>
+      <edge source="Payton Pritchard" target="Klay Thompson" id="34">
+        <attvalues>
+          <attvalue for="3" value="0.08401114379995751" />
+          <attvalue for="4" value="0.039276974146495114" />
+          <attvalue for="5" value="0.23709229194090972" />
+        </attvalues>
+      </edge>
+      <edge source="Andrew Wiggins" target="Derrick White" id="35">
+        <attvalues>
+          <attvalue for="3" value="0.023036609226048957" />
+          <attvalue for="4" value="0.04795134598143974" />
+          <attvalue for="5" value="0.16739976315344274" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Jayson Tatum" id="36">
+        <attvalues>
+          <attvalue for="3" value="0.04025820452595539" />
+          <attvalue for="4" value="0.18722589711904242" />
+          <attvalue for="5" value="0.3270272557982055" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Jordan Poole" id="37">
+        <attvalues>
+          <attvalue for="3" value="0.036974768607935304" />
+          <attvalue for="4" value="0.178963436795813" />
+          <attvalue for="5" value="0.4200409463148316" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Damion Lee" id="38">
+        <attvalues>
+          <attvalue for="3" value="0.5401612015620945" />
+          <attvalue for="4" value="0.15936129485595213" />
+          <attvalue for="5" value="0.8581680584551148" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Jaylen Brown" id="39">
+        <attvalues>
+          <attvalue for="3" value="0.07552874587650373" />
+          <attvalue for="4" value="0.15575101160621257" />
+          <attvalue for="5" value="0.33475679616706594" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Chris Chiozza" id="40">
+        <attvalues>
+          <attvalue for="3" value="0.5920691604158492" />
+          <attvalue for="4" value="0.07232681543941266" />
+          <attvalue for="5" value="0.6210986267166042" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Gary Payton II" id="41">
+        <attvalues>
+          <attvalue for="3" value="0.05400766573926102" />
+          <attvalue for="4" value="0.03968888565821037" />
+          <attvalue for="5" value="0.09878181160294296" />
+        </attvalues>
+      </edge>
+      <edge source="Derrick White" target="Jonathan Kuminga" id="42">
+        <attvalues>
+          <attvalue for="3" value="0.02939078085494594" />
+          <attvalue for="4" value="0.04366262024181628" />
+          <attvalue for="5" value="0.14397571108980506" />
+        </attvalues>
+      </edge>
+      <edge source="Daniel Theis" target="Al Horford" id="43">
+        <attvalues>
+          <attvalue for="3" value="0.09517819095002912" />
+          <attvalue for="4" value="0.08308497492185796" />
+          <attvalue for="5" value="0.19642550266368794" />
+        </attvalues>
+      </edge>
+      <edge source="Daniel Theis" target="Marcus Smart" id="44">
+        <attvalues>
+          <attvalue for="3" value="0.005322169545712968" />
+          <attvalue for="4" value="0.035448620096435755" />
+          <attvalue for="5" value="0.07419992899528326" />
+        </attvalues>
+      </edge>
+      <edge source="Jayson Tatum" target="Andrew Wiggins" id="45">
+        <attvalues>
+          <attvalue for="3" value="0.00826012130334443" />
+          <attvalue for="4" value="0.1302851881466405" />
+          <attvalue for="5" value="0.30523387829246146" />
+        </attvalues>
+      </edge>
+      <edge source="Jayson Tatum" target="Klay Thompson" id="46">
+        <attvalues>
+          <attvalue for="3" value="0.16784492525434164" />
+          <attvalue for="4" value="0.11390564803372828" />
+          <attvalue for="5" value="0.6875822729267222" />
+        </attvalues>
+      </edge>
+      <edge source="Jayson Tatum" target="Otto Porter Jr." id="47">
+        <attvalues>
+          <attvalue for="3" value="0.0150422353145897" />
+          <attvalue for="4" value="0.04002810690315233" />
+          <attvalue for="5" value="0.06160041762995003" />
+        </attvalues>
+      </edge>
+      <edge source="Moses Moody" target="Derrick White" id="48">
+        <attvalues>
+          <attvalue for="3" value="0.07112377133723652" />
+          <attvalue for="4" value="0.09536963000654212" />
+          <attvalue for="5" value="0.3329385890712232" />
+        </attvalues>
+      </edge>
+      <edge source="Quinndary Weatherspoon" target="Derrick White" id="49">
+        <attvalues>
+          <attvalue for="3" value="0.18411160173121544" />
+          <attvalue for="4" value="0.05771607181798357" />
+          <attvalue for="5" value="0.2014887497885299" />
+        </attvalues>
+      </edge>
+      <edge source="Al Horford" target="Otto Porter Jr." id="50">
+        <attvalues>
+          <attvalue for="3" value="0.09225694381911338" />
+          <attvalue for="4" value="0.09100821400014537" />
+          <attvalue for="5" value="0.14005518681482587" />
+        </attvalues>
+      </edge>
+      <edge source="Al Horford" target="Kevon Looney" id="51">
+        <attvalues>
+          <attvalue for="3" value="0.024951104516945613" />
+          <attvalue for="4" value="0.07959584211674056" />
+          <attvalue for="5" value="0.1573577313661621" />
+        </attvalues>
+      </edge>
+      <edge source="Al Horford" target="Derrick White" id="52">
+        <attvalues>
+          <attvalue for="3" value="0.18955274105568062" />
+          <attvalue for="4" value="0.05887911608635603" />
+          <attvalue for="5" value="0.20554897648452042" />
+        </attvalues>
+      </edge>
+      <edge source="Al Horford" target="Jordan Poole" id="53">
+        <attvalues>
+          <attvalue for="3" value="0.09011174179509027" />
+          <attvalue for="4" value="0.04245111579559496" />
+          <attvalue for="5" value="0.09963603275705185" />
+        </attvalues>
+      </edge>
+      <edge source="Al Horford" target="Juan Toscano-Anderson" id="54">
+        <attvalues>
+          <attvalue for="3" value="0.14361307855723005" />
+          <attvalue for="4" value="0.03433403600591214" />
+          <attvalue for="5" value="0.20231296402055968" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Williams III" target="Daniel Theis" id="55">
+        <attvalues>
+          <attvalue for="3" value="0.057661652537861166" />
+          <attvalue for="4" value="0.2411863051537399" />
+          <attvalue for="5" value="0.5444699704627503" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Williams III" target="Kevon Looney" id="56">
+        <attvalues>
+          <attvalue for="3" value="0.031730933948965485" />
+          <attvalue for="4" value="0.22769014562283443" />
+          <attvalue for="5" value="0.4501341253113624" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Williams III" target="Stephen Curry" id="57">
+        <attvalues>
+          <attvalue for="3" value="0.018053298940434923" />
+          <attvalue for="4" value="0.04453490344309564" />
+          <attvalue for="5" value="0.07418469486599936" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

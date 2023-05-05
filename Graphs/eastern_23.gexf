@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-26">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="MIA" label="MIA" />
+      <node id="CLE" label="CLE" />
+      <node id="PHI" label="PHI" />
+      <node id="MIL" label="MIL" />
+      <node id="NYK" label="NYK" />
+      <node id="ATL" label="ATL" />
+      <node id="BOS" label="BOS" />
+      <node id="BKN" label="BKN" />
+    </nodes>
+    <edges>
+      <edge source="MIA" target="BKN" id="0" weight="0.6069063631660631" />
+      <edge source="MIA" target="MIL" id="1" weight="0.5871716583148817" />
+      <edge source="MIA" target="PHI" id="2" weight="0.5330396670994846" />
+      <edge source="MIA" target="NYK" id="3" weight="0.5194598292825959" />
+      <edge source="CLE" target="BKN" id="4" weight="0.5721012861955617" />
+      <edge source="CLE" target="BOS" id="5" weight="0.550600199331446" />
+      <edge source="CLE" target="MIL" id="6" weight="0.629577574051173" />
+      <edge source="CLE" target="MIA" id="7" weight="0.5127301524450605" />
+      <edge source="CLE" target="ATL" id="8" weight="0.624067377843864" />
+      <edge source="CLE" target="PHI" id="9" weight="0.5534891416752844" />
+      <edge source="PHI" target="MIL" id="10" weight="0.5776687697930203" />
+      <edge source="MIL" target="BKN" id="11" weight="0.5245588545450286" />
+      <edge source="MIL" target="BOS" id="12" weight="0.5684182855786108" />
+      <edge source="NYK" target="BKN" id="13" weight="0.6300462688858189" />
+      <edge source="NYK" target="BOS" id="14" weight="0.56062326706389" />
+      <edge source="NYK" target="MIL" id="15" weight="0.5572212039219109" />
+      <edge source="NYK" target="ATL" id="16" weight="0.5488801232095666" />
+      <edge source="NYK" target="PHI" id="17" weight="0.5711381912288181" />
+      <edge source="NYK" target="CLE" id="18" weight="0.6067691575356352" />
+      <edge source="ATL" target="BKN" id="19" weight="0.5604807132014267" />
+      <edge source="ATL" target="BOS" id="20" weight="0.615076614755125" />
+      <edge source="ATL" target="MIL" id="21" weight="0.6535676567179295" />
+      <edge source="ATL" target="MIA" id="22" weight="0.6282141507569742" />
+      <edge source="ATL" target="PHI" id="23" weight="0.5541314748095209" />
+      <edge source="BOS" target="BKN" id="24" weight="0.6209045760767298" />
+      <edge source="BOS" target="MIA" id="25" weight="0.5604965121945897" />
+      <edge source="BOS" target="PHI" id="26" weight="0.5016646532289517" />
+      <edge source="BKN" target="PHI" id="27" weight="0.6497498330846775" />
+    </edges>
+  </graph>
+</gexf>

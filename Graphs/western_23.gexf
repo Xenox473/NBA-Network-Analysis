@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-26">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="MIN" label="MIN" />
+      <node id="GSW" label="GSW" />
+      <node id="SAC" label="SAC" />
+      <node id="LAC" label="LAC" />
+      <node id="LAL" label="LAL" />
+      <node id="MEM" label="MEM" />
+      <node id="PHX" label="PHX" />
+      <node id="DEN" label="DEN" />
+    </nodes>
+    <edges>
+      <edge source="MIN" target="LAL" id="0" weight="0.5891810100245886" />
+      <edge source="MIN" target="PHX" id="1" weight="0.5845503904685998" />
+      <edge source="MIN" target="MEM" id="2" weight="0.5637516598466168" />
+      <edge source="MIN" target="LAC" id="3" weight="0.5601608743250514" />
+      <edge source="GSW" target="LAL" id="4" weight="0.5400947832509831" />
+      <edge source="GSW" target="PHX" id="5" weight="0.5977351363165861" />
+      <edge source="GSW" target="SAC" id="6" weight="0.5282266727138185" />
+      <edge source="GSW" target="MEM" id="7" weight="0.5586596318004033" />
+      <edge source="GSW" target="LAC" id="8" weight="0.5004805773444435" />
+      <edge source="GSW" target="MIN" id="9" weight="0.5023665429743134" />
+      <edge source="SAC" target="PHX" id="10" weight="0.5404422844368827" />
+      <edge source="SAC" target="MEM" id="11" weight="0.5681460712576079" />
+      <edge source="SAC" target="MIN" id="12" weight="0.5424594027109807" />
+      <edge source="LAC" target="PHX" id="13" weight="0.6119303707896971" />
+      <edge source="LAC" target="SAC" id="14" weight="0.5416686510771379" />
+      <edge source="LAC" target="MEM" id="15" weight="0.5489530254455599" />
+      <edge source="LAL" target="PHX" id="16" weight="0.5390049074801895" />
+      <edge source="LAL" target="DEN" id="17" weight="0.5075721713849078" />
+      <edge source="LAL" target="SAC" id="18" weight="0.5492039632009136" />
+      <edge source="LAL" target="MEM" id="19" weight="0.537130512598227" />
+      <edge source="LAL" target="LAC" id="20" weight="0.6039815272134719" />
+      <edge source="MEM" target="PHX" id="21" weight="0.7056812257253595" />
+      <edge source="MEM" target="DEN" id="22" weight="0.5182977208455641" />
+      <edge source="DEN" target="PHX" id="23" weight="0.5396186999092143" />
+      <edge source="DEN" target="SAC" id="24" weight="0.5044276604022532" />
+      <edge source="DEN" target="LAC" id="25" weight="0.6350801823931045" />
+      <edge source="DEN" target="GSW" id="26" weight="0.5340197946047869" />
+      <edge source="DEN" target="MIN" id="27" weight="0.5422775073700741" />
+    </edges>
+  </graph>
+</gexf>
