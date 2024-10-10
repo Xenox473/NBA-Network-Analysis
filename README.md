@@ -1,7 +1,7 @@
 # NBA-Network-Analysis
 Network analysis of NBA Matchups for the 2021-2022 regular season
 
-This repo contains all the accompanying files for my Network Science project on NBA matchups. 
+This repo contains all the accompanying files for my Network Science project on NBA matchups. The report can be found [here](Network%20Science%20Report.pdf) and the accompanying presentation [here](NS%20Presentation.pdf).
 
 File Descriptions:
 1. `NBA_network_analysis.ipynb`: Contains all of the code used for the research. This includes mining the data, determining the matchup winners, and creating the network.
