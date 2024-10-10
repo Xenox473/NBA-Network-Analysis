@@ -13,3 +13,5 @@ File Descriptions:
    2. `playoff_prediction`: For a given bracket, outputs a predicted champion. See code for usage example
 3. `datasets/`: Contains all the datasets mined and generated during script execution and stored as a pickled file.
 4. `Graphs/`: Contains all the created networks in .gexf format for use in softwares like Gephi. Also contains .png images of the graphs created using Gephi.
+
+![Matchup Network Graph](Graphs/mn_22.png)
